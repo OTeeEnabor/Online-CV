@@ -1,0 +1,88 @@
+main{
+    background-color:black;
+    background: url("../images/profile_background.jpg)");
+}
+.profile{
+    background-color:black;
+    background: url("../images/profile_background.jpg)");
+    border:2px solid black;
+    margin:25px;
+}
+.profile img{
+    /* size:219px; */
+    margin:10px 20px 10px 20px;
+    /* padding:30px; */
+    border-radius:50%;
+    border:2px solid black;
+    float: left;
+    width:25%;
+
+}
+#seneca{
+    /* background: url("../images/profile_background.jpg") no-repeat center; */
+    text-align:center;
+    font-style:italic;
+}
+#aboutme{
+    background-color:black;
+    color:yellow;
+    font-family: 'Share Tech Mono', monospace; 
+    margin:50px 40px 0px 20px;
+    border: 5px solid black;
+    padding:50px;
+    float:right;
+    width:55%;
+}
+.profile::after{
+    /* background: url("../images/profile_background.jpg") no-repeat center; */
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#education{
+    /* background: url("../images/profile_background.jpg") no-repeat center; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries*/
+@media screen and (max-width:400px){
+    body{
+        background-color:black;
+    }
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    img{
+        display:block;
+        width:100%
+    }
+}
