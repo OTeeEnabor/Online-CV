@@ -8,6 +8,10 @@
 
 body{
     background-image: url("/images/profile_background.jpg");
+}.navigation{
+    position:fixed;
+    top:0px;
+    width:100%;
 }
 header{
     background-color:black;
@@ -21,7 +25,7 @@ nav{
     margin:0;
     background-image: url("/images/profile_background.jpg");
     font-family: 'Share Tech Mono', monospace; 
-    position:sticky;
+    
 }
 nav ul {
     list-style-type:none;
@@ -49,6 +53,7 @@ nav li a:hover:not(.active){
 }
 main{
     background-image: url("/images/profile_background.jpg");
+    margin-top:100px;
 }
 .profile{
     padding:5vw;
@@ -148,7 +153,7 @@ h2{
 .webskills,.cad{
     padding:5%;
 }
-.contact{
+/* .contact{
     margin: 5%;
     
-}
+} */
