@@ -13,40 +13,50 @@
     <header>
        <h1>Oseluole Tobi Enabor:<span> Web Developer|| Engineer||Sith Lord</span> </h1> 
     </header>
-    <nav>
-        <ul>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Education">Education</a></li>
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Contact">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container-fluid">
+        <nav>
+                <ul>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#workexperience">Work Experience</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+        </nav>
+            
+
+    
+    </div>
     <main>
 
         <div class="profile container-fluid">
-            <div class="container-fluid ">
-                <img src="images/profile_final.png" alt="Oseluole Enabor">
+            <div class="row">
+                    <div class="col-sm-12 col-lg-3 ">
+                        <img src="images/profile_final.png" alt="Oseluole Enabor">
+                    </div>
+
+                    <div class="col-sm-12 col-lg-9">
+                        <section id="aboutme">
+                                <p id="seneca"> "The good things of prosperity are to be wished but the good things that belong to adversity are to be admired" - Seneca </p>
+                                <br>
+                                <p>I am an up and coming Web developer from Nigeria who is currently based in Cape Town, South Africa. I have a curious personality and I am always seeking to learn more things that I find interesting, such as learning how to play the acoustic guitar and taking French lessons. I am new to the tech industry and eager on this new journey. 
+                                </p>
+                            </section>
+                    </div>
             </div>
-            <section id="aboutme">
-                
-                <p id="seneca"> "The good things of prosperity are to be wished but the good things that belong to adversity are to be admired" - Seneca </p>
-                <br>
-                <p>I am an up and coming Web developer from Nigeria who is currently based in Cape Town, South Africa. I have a curious personality and I am always seeking to learn more things that I find interesting, such as learning how to play the acoustic guitar and taking French lessons. I am new to the tech industry and eager on this new journey. 
-                </p>
-            </section>
+            
         </div>
         <!--Image Break-->
         <!-- <div class=" imagebreak1 container-fluid">
            
 </div> 
             <!-- <img src="images/image_break1.jpg" alt="Darth Vader"> -->
-        
+        <!--EDUCATION-->
         <div class="container-fluid education">
 
-            <h2>Education</h2>
+            <h2 id="Education">Education</h2>
 
-            <div class="nelsonmandela row bg-primary">
-
+            <div class="nelsonmandelarow row ">
                 <div class="nmulogo col-lg-3">
                     <img id="logos" src="images/nelsonmandelauni.png" alt="Nelson Mandela logo">
                 </div>
@@ -58,33 +68,87 @@
                     </ul> 
                 </div>
             </div>
-            <div class="row">
 
+            <div class="witsrow row">
                 <div class="witlogo col-lg-3">
                         <img id="logos" src="images/witslogo.png" alt="Nelson Mandela logo">
                 </div>
-
-                <div class="witsedu col-lg-3">
+                <div class="col-lg-3"></div>
+                <div class="witsqualification col-sm-4 col-lg-6">
                     <ul>
                         <li>Postgraduate Diploma:Mechanical Engineering (2018-2019)</li>
                     </ul>
                 </div>
 
             </div>
-            
-
+        </div>
+        <hr>
+        <!--WORK EXPERIENCE-->
+        <div class=" workexperience container-fluid">
+            <h2 id="workexperience">Work Experience</h2>
+            <h3>Mechanical Engineer Intern at Nelson Mandela Eco Car [06/2014-05/2016]</h3>
+            <div class="ecocar row">
+                <div class="nmuecologo col-lg-3 ">
+                    <img src="images/nmuecocar.PNG" alt="Nelson Mandela University Eco Car">
+                </div>
+                <div class="nmuecotext col-lg-9 ">
+                    <p>Team member for the 1st generation Nelson Mandela University Eco Car that competed in the Shell Eco Car Marathon Challenge in Johannesburg, South Africa. University teams across Africa were competing for the honor of having the car that travelled the longest distance on a single litre of fuel</p>.<p>I was responsible for the design and manufacture of the Carbon Fiber steering wheel, coating the monocoque with Clear Coat and ensuring the correct body finish. The Team are current African champions in the petrol category of the African leg of the Shell Eco Car Marathon Challenge</p>
+                </div>
+            </div>
+            <h3>SI Leader, Student Mentor and Lecturer's Assistant [02/2015-12/2016]</h3>
+            <div class=" row ">
+                <div class="mentorlogo col-sm-12 col-lg-3">
+                    <img src= "/images/nelsonmandelauni.png" alt="Nelson Mandela University Logo">
+                </div>
+                <div class="mentortext col-lg-9">
+                    <p>Tutored Mechanics 1 (Statics) to 1st year Mechanical and Industrial Engineering Students twice a week. During this time I was also a Student Assistant to various lecturers in the Mechanical Engineering Department.
+                    </p>
+                </div>
+            </div>
 
 
         </div>
-            <section id=" progskills" style="border: 2px solid blue;">
+        <!--Skills and Abilities-->
 
-            </section>
+        <div class= "progrskills container-fluid">
+            <h2 id="skills">Skills and Abilities</h2>
+            <div class="row">
+                <div class="webskills col-sm-12 col-lg-6 ">
+                    Web Devolpment:
+                        <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
 
-            <section id="contact"style="border: 2px solid blue;">
+                            </ul>
+                </div>
 
-            </section>
+                <div class="cad col-sm-12 col-lg-6">
+                    Computer Aided Design:
+                    <ul>
+                        <li>Autodesk Inventor</li>
+                        <li>Solidworks</li>
+                        <li>AutoCad</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
-        
+        <!--Contact Details-->
+        <!-- <div class="contact container-fluid">
+            <h2 >Contact</h2>
+            <div class="row">
+                <div class="col-sm-12 col-lg-12">
+                <p>Please use the contact details listed  below to reach me if you are interested in collaborating on a project. 
+                        <ul>
+                            <li>Phone:+27789021270</li>
+                            <li>e-mail:tobienabor@gmail.com</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+            
+        </div> -->
 
     </main>
 </body>

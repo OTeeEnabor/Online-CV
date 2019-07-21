@@ -3,9 +3,12 @@
     padding:0;
     color:yellow;
     font-family: 'Share Tech Mono', monospace;
+    
 }
 
-
+body{
+    background-image: url("/images/profile_background.jpg");
+}
 header{
     background-color:black;
     text-align:center;
@@ -16,21 +19,22 @@ header{
 }
 nav{
     margin:0;
-    background-color:rgb(59, 23, 23);
+    background-image: url("/images/profile_background.jpg");
     font-family: 'Share Tech Mono', monospace; 
+    position:sticky;
 }
 nav ul {
     list-style-type:none;
-    margin:0;
+    margin-left:1.5rem;
     padding:10px;
     overflow:hidden;
 }
 nav li{
     float:left;
-    padding: 10px 0px 10px 200px;
+    /* padding: 10px 0px 10px 20px; */
 }
 nav li a{
-    padding: 10px;
+    padding: 0.5rem;
     display: block;
     color:yellow;
     text-align: center;
@@ -40,21 +44,24 @@ nav li a{
     letter-spacing: 5px;
 }
 nav li a:hover:not(.active){
-    background-color:darkgrey;
+    color:red;
+    background-color:black;
 }
-
+main{
+    background-image: url("/images/profile_background.jpg");
+}
 .profile{
     padding:5vw;
-    background-image: url("/images/profile_background.jpg")
+    background-image: url("/images/profile_background.jpg");
 }
 .profile img{
     /* size:219px; */
-    margin:10px 20px 10px 20px;
+    margin:20px 20px 20px 20px;
     /* padding:30px; */
     border-radius:50%;
     border:2px solid black;
     float: left;
-    width:25%;
+    width:100%;
 }
 .profile::after{
     content:"";
@@ -69,10 +76,10 @@ h2{
 #aboutme{
     color:yellow;
     font-family: 'Share Tech Mono', monospace; 
-    margin:50px 40px 0px 20px;
-    padding:50px;
+    margin:50px 5% 0px 5%;
+    padding:5%;
     text-align: center;
-    float:right;
+    /* float:right; */
     width:55%;
 }
 #seneca{
@@ -86,7 +93,7 @@ h2{
 .education{
     background-image: url("/images/profile_background.jpg")
 }
-.nelsonmandela{
+.nelsonmandelarow{
     margin-top:100px;
     padding:2vw;
 }
@@ -96,7 +103,52 @@ h2{
 .nmuqualification ul{
 
 }
+.witsrow{
+    margin-top:100px;
+    padding:2vw; 
+}
+.witsqualification{
+    margin:2vw 0 1vw 0;
+}
 
 #logos{
     max-width:45%;
+}
+.workexperience{
+    background-image: url("/images/profile_background.jpg");
+}
+.workexperience h2{
+    text-align:center;
+    
+}
+.workexperience h3{
+    text-align:center;
+    margin-top:50px;
+}
+.nmuecologo{
+    padding:2%;
+}
+.workexperience img{
+    text-align:center;
+    border-radius:50%;
+    border:5px solid red;
+    width:45%;
+}
+.nmuecotext{
+    padding: 5%;
+}
+.mentorlogo{
+    padding:1%;
+    display: flex;
+    justify-content:center;
+}
+.mentortext{
+    padding:5%;
+}
+.webskills,.cad{
+    padding:5%;
+}
+.contact{
+    margin: 5%;
+    
 }

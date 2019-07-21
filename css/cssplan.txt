@@ -19,7 +19,7 @@ main{
 
 }
 #seneca{
-    /* background: url("../images/profile_background.jpg") no-repeat center; */
+    color-yellow;
     text-align:center;
     font-style:italic;
 }
@@ -34,7 +34,6 @@ main{
     width:55%;
 }
 .profile::after{
-    /* background: url("../images/profile_background.jpg") no-repeat center; */
     content:"";
     display:block;
     clear:both;
