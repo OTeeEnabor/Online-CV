@@ -103,22 +103,31 @@ h2{
     padding:2vw;
 }
 .nmuqualification{
-    margin:2vw 0 1vw 0;
+    text-align: center;
+    margin: 10% auto;
 }
-.nmuqualification ul{
-
+.nmulogo{
+    text-align: center;
+    margin: 5% auto;
+}
+.nmulogo img{
+    width:50%;
 }
 .witsrow{
     margin-top:100px;
     padding:2vw; 
 }
-.witsqualification{
-    margin:2vw 0 1vw 0;
+.witslogo{
+    text-align: center;
+    margin: 5% auto;
+    
 }
 
-#logos{
-    max-width:45%;
+.witsqualification{
+    text-align: center;
+    margin: 5% auto;
 }
+
 .workexperience{
     background-image: url("/images/profile_background.jpg");
 }
@@ -132,20 +141,29 @@ h2{
 }
 .nmuecologo{
     padding:2%;
+    text-align: center;
+    margin: 5% auto;
 }
-.workexperience img{
+.nmuecologo img{
+    border-radius:50%;
+    width:55%;
+}
+ /* .workexperience img{
     text-align:center;
     border-radius:50%;
     border:5px solid red;
-    width:45%;
-}
+    width:45%; */
 .nmuecotext{
     padding: 5%;
 }
 .mentorlogo{
     padding:1%;
-    display: flex;
-    justify-content:center;
+    text-align: center;
+    margin: 5% auto;
+}
+.mentorlogo img{
+    border-radius: 50%;
+    width:55%;
 }
 .mentortext{
     padding:5%;
