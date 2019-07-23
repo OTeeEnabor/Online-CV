@@ -7,37 +7,33 @@
 }
 
 body{
-    background-image: url("/images/profile_background.jpg");
-}.navigation{
+    background-image: url("../images/profile_background.jpg");
+}
+/* navigation{
     position:fixed;
     top:0px;
     width:100%;
-}
+} */
 header{
-    background-color:black;
+    /* background-image: url("/images/profile_background.jpg"); */
     text-align:center;
     padding:20px;
     color:yellow;
     font-weight:bold;
     font-family: 'Share Tech Mono', monospace;
+    position:fixed;
+    top:0px;
+    width:100%;
 }
-nav{
+
+nav a{
     margin:0;
-    background-image: url("/images/profile_background.jpg");
     font-family: 'Share Tech Mono', monospace; 
-    
-}
-nav ul {
+    float:left;
     list-style-type:none;
     margin-left:1.5rem;
     padding:10px;
     overflow:hidden;
-}
-nav li{
-    float:left;
-    /* padding: 10px 0px 10px 20px; */
-}
-nav li a{
     padding: 0.5rem;
     display: block;
     color:yellow;
@@ -45,19 +41,19 @@ nav li a{
     font-size:1rem;
     font-weight: bold;
     text-decoration: none;
-    letter-spacing: 5px;
+    letter-spacing:5px;
 }
-nav li a:hover:not(.active){
+nav a:hover:not(.active){
     color:red;
     background-color:black;
 }
 main{
-    background-image: url("/images/profile_background.jpg");
+    /* background-image: url("/images/profile_background.jpg"); */
     margin-top:100px;
 }
 .profile{
     padding:5vw;
-    background-image: url("/images/profile_background.jpg");
+    /* background-image: url("/images/profile_background.jpg"); */
 }
 .profile img{
     /* size:219px; */
@@ -65,7 +61,7 @@ main{
     /* padding:30px; */
     border-radius:50%;
     border:2px solid black;
-    float: left;
+    /* float: left; */
     width:100%;
 }
 .profile::after{
@@ -96,7 +92,7 @@ h2{
     background: url("/images/image_break1.jpg");
 }
 .education{
-    background-image: url("/images/profile_background.jpg")
+    /* background-image: url("/images/profile_background.jpg") */
 }
 .nelsonmandelarow{
     margin-top:100px;
@@ -129,7 +125,7 @@ h2{
 }
 
 .workexperience{
-    background-image: url("/images/profile_background.jpg");
+    /* background-image: url("/images/profile_background.jpg"); */
 }
 .workexperience h2{
     text-align:center;
