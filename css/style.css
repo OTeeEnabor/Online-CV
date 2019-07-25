@@ -3,19 +3,15 @@
     padding:0;
     color:yellow;
     font-family: 'Share Tech Mono', monospace;
+    box-sizing: border-box;
     
 }
 
 body{
     background-image: url("../images/profile_background.jpg");
 }
-/* navigation{
-    position:fixed;
-    top:0px;
-    width:100%;
-} */
-header{
-    /* background-image: url("/images/profile_background.jpg"); */
+/* header{
+    background-image: url("/images/profile_background.jpg");
     text-align:center;
     padding:20px;
     color:yellow;
@@ -24,8 +20,36 @@ header{
     position:fixed;
     top:0px;
     width:100%;
+} */
+.header-top{
+    background-color:black;
+    text-align:center;
+    padding:0.5rem;
+    color:yellow;
+    font-weight:bold;
+    font-family: 'Share Tech Mono', monospace;
+    position:fixed;
+    top:0px;
+    z-index: 2;
+}
+.header-top h1{
+    font-size: 3vw;
 }
 
+.navigation-large{
+    /* float:right; */
+}
+.navigation-large a{
+    font-family: 'Share Tech Mono', monospace; 
+    color:yellow;
+    font-size:1.5vw;
+    
+}
+.navigation-large img{
+    width:10%;
+    height:10%;
+}
+/* 
 nav a{
     margin:0;
     font-family: 'Share Tech Mono', monospace; 
@@ -42,26 +66,26 @@ nav a{
     font-weight: bold;
     text-decoration: none;
     letter-spacing:5px;
-}
+} */
 nav a:hover:not(.active){
     color:red;
     background-color:black;
 }
+
+
+
+
+
 main{
-    /* background-image: url("/images/profile_background.jpg"); */
     margin-top:100px;
 }
 .profile{
     padding:5vw;
-    /* background-image: url("/images/profile_background.jpg"); */
 }
 .profile img{
-    /* size:219px; */
     margin:20px 20px 20px 20px;
-    /* padding:30px; */
     border-radius:50%;
     border:2px solid black;
-    /* float: left; */
     width:100%;
 }
 .profile::after{
@@ -92,7 +116,6 @@ h2{
     background: url("/images/image_break1.jpg");
 }
 .education{
-    /* background-image: url("/images/profile_background.jpg") */
 }
 .nelsonmandelarow{
     margin-top:100px;
@@ -164,10 +187,18 @@ h2{
 .mentortext{
     padding:5%;
 }
-.webskills,.cad{
+.webskills,
+.cad-skills{
     padding:5%;
 }
-/* .contact{
-    margin: 5%;
-    
-} */
+
+/*
+Media queries
+*/
+
+@media only screen and (max-width:760px){
+    .profile img{
+        width:50%;
+    }
+
+}

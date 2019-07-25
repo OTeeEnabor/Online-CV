@@ -7,33 +7,47 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link href="css/style.css" type="text/css"  rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
     <title>O.T Enabor</title>
 </head>
 <body>
-
-    <div class="navigation container-fluid">
+    
+    <!-- <div class="navigation container-fluid">
         <header>
-                <h1>Oseluole Tobi Enabor:<span> Web Developer|| Engineer||Sith</span> </h1> 
+                <h1>Oseluole Tobi Enabor:Web Developer|| Engineer||Sith</h1> 
         <nav>
                 <a href="#About">About</a>
                 <a href="#Education">Education</a>
                 <a href="#workexperience">Work Experience</a>
                 <a href="#skills">Skills</a>
                 <a href="#contact">Contact</a>
-            </ul>
         </nav>
         </header>
-    </div>
-
+    </div> -->
+    <header class="container-fluid header-top">
+        <h1>Oseluole Tobi Enabor:Web Developer|| Engineer||Sith</h1>
+        <nav class="container-fluid">
+            <div class="container-fluid navigation-large">
+                <a href="index.html"><img id="nav-logo"src="images/open_delta.png" alt="header logo"></a>
+                <a href="#About">About</a>
+                <a href="#Education">Education</a>
+                <a href="#workexperience">Work Experience</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="container-fluid navigation-small">
+                
+            </div>
+        </nav>
+    </header>
     <main>
         <div class="profile container-fluid">
             <div class="row">
                 <div class="col-sm-12 col-lg-3 ">
                     <img src="images/profile_final.png" alt="Oseluole Enabor">
                 </div>
-                <div class="col-sm-12 col-lg-9">
+                <div id="About" class="col-sm-12 col-lg-9">
                     <section id="aboutme">
                         <p id="seneca"> "The good things of prosperity are to be wished but the good things that belong to adversity are to be admired" - Seneca </p>
                         <br>
@@ -107,23 +121,28 @@
         <div class= "progrskills container-fluid">
             <h2 id="skills">Skills and Abilities</h2>
             <div class="row">
-                <div class="webskills col-sm-12 col-lg-6 ">
-                    Web Devolpment:
-                        <ul>
-                                <li>HTML <i class="fab fa-html5"></i></li>
-                                <li>CSS</li>
-                                <li>JavaScript</li>
-
+                <div class="col-sm-12 col-lg-6 webskills ">
+                    <h4>Web Development</h4>
+                    <div class="skill-logos">
+                            <ul>
+                                    <li>HTML <i class="fab fa-html5 fa-2x"></i></li>
+                                    <li>CSS <i class="fab fa-css3 fa-2x"></i></li>
+                                    <li>JavaScript <i class="fab fa-js fa-2x"></i></li>
+    
                             </ul>
+                    </div>
+                        
                 </div>
 
-                <div class="cad col-sm-12 col-lg-6">
-                    Computer Aided Design:
-                    <ul>
-                        <li>Autodesk Inventor</li>
-                        <li>Solidworks</li>
-                        <li>AutoCad</li>
-                    </ul>
+                <div class="col-sm-12 col-lg-6 cad-skills">
+                    <h4>Computer Aided Design</h4>
+                    <div class="skill-logos">
+                        <ul>
+                            <li>Autodesk Inventor</li>
+                            <li>Solidworks</li>
+                            <li>AutoCad</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -142,21 +161,6 @@
                         </div>
                     </div>
         </div>
-        <!-- <div class="contact container-fluid">
-            <h2 >Contact</h2>
-            <div class="row">
-                <div class="col-sm-12 col-lg-12">
-                <p>Please use the contact details listed  below to reach me if you are interested in collaborating on a project. 
-                        <ul>
-                            <li>Phone:+27789021270</li>
-                            <li>e-mail:tobienabor@gmail.com</li>
-                        </ul>
-                    </p>
-                </div>
-            </div>
-            
-        </div> -->
-
     </main>
 </body>
 </html>
