@@ -3,28 +3,17 @@
     padding:0;
     color:yellow;
     font-family: 'Share Tech Mono', monospace;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 body{
     background-image: url("../images/profile_background.jpg");
 }
-/* header{
-    background-image: url("/images/profile_background.jpg");
-    text-align:center;
-    padding:20px;
-    color:yellow;
-    font-weight:bold;
-    font-family: 'Share Tech Mono', monospace;
-    position:fixed;
-    top:0px;
-    width:100%;
-} */
+
 .header-top{
     background-color:black;
     text-align:center;
-    padding:0.5rem;
+    padding:0.25rem;
     color:yellow;
     font-weight:bold;
     font-family: 'Share Tech Mono', monospace;
@@ -43,30 +32,15 @@ body{
     font-family: 'Share Tech Mono', monospace; 
     color:yellow;
     font-size:1.5vw;
-    
+    display:inline-block;
 }
+
 .navigation-large img{
-    width:10%;
-    height:10%;
-}
-/* 
-nav a{
-    margin:0;
-    font-family: 'Share Tech Mono', monospace; 
     float:left;
-    list-style-type:none;
-    margin-left:1.5rem;
-    padding:10px;
-    overflow:hidden;
-    padding: 0.5rem;
-    display: block;
-    color:yellow;
-    text-align: center;
-    font-size:1rem;
-    font-weight: bold;
-    text-decoration: none;
-    letter-spacing:5px;
-} */
+    width: 30%;
+    height:15%;
+}
+
 nav a:hover:not(.active){
     color:red;
     background-color:black;
@@ -98,7 +72,7 @@ h2{
     text-align:center;
     font-family:'Share Tech Mono', monospace;
 }
-#aboutme{
+#aboutMe{
     color:yellow;
     font-family: 'Share Tech Mono', monospace; 
     margin:50px 5% 0px 5%;
@@ -112,84 +86,89 @@ h2{
     text-align:center;
     font-style:italic;
 }
-.imagebreak1{
-    background: url("/images/image_break1.jpg");
-}
+
 .education{
 }
-.nelsonmandelarow{
+.nelsonmandela-row{
     margin-top:100px;
     padding:2vw;
 }
-.nmuqualification{
+.nmu-qualification{
     text-align: center;
     margin: 10% auto;
 }
-.nmulogo{
+.nmu-logo{
     text-align: center;
     margin: 5% auto;
 }
-.nmulogo img{
+.nmu-logo img{
     width:50%;
 }
-.witsrow{
+.wits-row{
     margin-top:100px;
     padding:2vw; 
 }
-.witslogo{
+.wits-logo{
     text-align: center;
     margin: 5% auto;
     
 }
 
-.witsqualification{
+.wits-qualification{
     text-align: center;
     margin: 5% auto;
 }
 
-.workexperience{
+.work-experience{
     /* background-image: url("/images/profile_background.jpg"); */
 }
-.workexperience h2{
+.work-experience h2{
     text-align:center;
     
 }
-.workexperience h3{
+.work-experience h3{
     text-align:center;
     margin-top:50px;
 }
-.nmuecologo{
+.nmu-ecologo{
     padding:2%;
     text-align: center;
     margin: 5% auto;
 }
-.nmuecologo img{
+.nmu-ecologo img{
     border-radius:50%;
     width:55%;
 }
- /* .workexperience img{
-    text-align:center;
-    border-radius:50%;
-    border:5px solid red;
-    width:45%; */
-.nmuecotext{
+ 
+.nmu-ecotext{
     padding: 5%;
 }
-.mentorlogo{
+.mentor-logo{
     padding:1%;
     text-align: center;
     margin: 5% auto;
 }
-.mentorlogo img{
+.mentor-logo img{
     border-radius: 50%;
     width:55%;
 }
-.mentortext{
+.mentor-text{
     padding:5%;
 }
-.webskills,
+.web-skills,
 .cad-skills{
     padding:5%;
+}
+
+footer{
+    background-color:yellow;
+    color:black;
+    position:static;
+    bottom:0;
+    text-align:center;
+    width:100%;
+    font-weight: bold;
+    padding:1vw;
 }
 
 /*
